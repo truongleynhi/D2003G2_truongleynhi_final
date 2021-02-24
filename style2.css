@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/* CSS Document */
+*{padding:0; margin:0}
+body {
+  font-family:termina, sans-serif;
+  background: transparent;
+  border: 20px #669999 solid;
+}
+
+#header{
+	padding-top:20px;
+	padding-left:40px;
+	animation-name: logorun;
+    animation-duration: 4s;
+	animation-iteration-count:infinite;
+	animation-timing-function: linear;
+}
+@keyframes logorun{
+       from {
+	  transform: rotate(0)
+	   }
+	  to {
+	  trasform:translate(360deg)  
+	  }
+	  }
+.home-heading {
+  text-align:center;
+  text-transform: lowercase;
+  word-spacing:2px;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.text-home {
+  padding-left:40px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 29px;
+  padding-bottom: 100px;
+  letter-spacing: 2px;
+}
+
+.home-heading span {
+  background-color: #c1d6d6;
+  color: white;
+  padding: 4px;
+}
+a {
+  color: #669999;
+  transition: 0.5s;
+  transition: 0.5s;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #A7CDCC;
+  text-decoration: underline;
+}
+
+.vertical-text {
+	background: transparent;
+	margin-left: 120px;
+	padding: 10px;
+	float: left;
+	font-size: 85px;
+	font-family: 'Bungee Outline', cursive;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	transform: rotate(90deg);
+	transform: rotate(90deg);
+	transform: rotate(90deg);
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+	transform-origin: left top 0;
+	transform-origin: left top 0;
+	transform-origin: left top 0;
+	background: transparent;
+	color: #669999;
+	margin-left: 120px;
+	padding: 10px;	
+}
+
+.banner {
+	margin-top: -75px;
+	padding-bottom: 100px;
+}
+.hinh2{
+	padding-left: 110px;
+}
+
+.line-symbol {
+    padding: 0;
+    border: none;
+    border-top: 1px solid #DADADA;
+    color: #DADADA;
+    text-align: center;
+	width: 83%;
+	margin: 0 auto;
+	background: transparent;
+	margin-top: 8px;
+}
+
+#footer {
+padding-left:20px;	
+}
+.info
+{
+float:left
+}
+.logo{
+float:right;
+padding-right:20px;
+}
+.cr{
+float:right;
+float-right:30px;
+}
+.fb{
+float:right;
+padding-right:30px;
+}
+.tw{
+float:right;
+padding-right:10px;
+}
+.ref{
+padding-top:20px;
+padding-bottom:20px;
+}
+.credits{
+text-decoration:none;
+float:left;
+}
+.creditsauthor{
+float:left;
+padding-left: 50px;
+}
+.year{
+float:right;
+padding-right:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
